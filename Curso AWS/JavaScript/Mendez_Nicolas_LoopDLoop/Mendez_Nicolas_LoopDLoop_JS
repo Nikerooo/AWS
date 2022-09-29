@@ -1,0 +1,19 @@
+var kilometros;  //Creamos variable Kilometros para saber cuanto corrio
+var caramelos;  //Creamos variable caramelos para saber cuandos caramelos dio, es un contador
+var kmhora;
+
+
+for(var i=0; i<10;i++){
+    
+    if(kilometros!=0 && kilometros%3==0){     //Cada 3 kilometros la maquina proporcionara un dulce
+        caramelos++            //Cada 3km dara dulce y el contador contara cuantos caramelos dio
+    }
+}
+
+console.log(`La maquina proporciono ${caramelos} caramelo`)
+
+//Necesitamos un for por que da un numero determinado de vueltas
+//El punto de partida del bucle es el kilometro 0
+//El bucle debe detenerse en el kilometro 10
+//Al dar 10 vueltas el bucle cortara
+//Necesitamos una variable kilometros, caramelos y km por hora
